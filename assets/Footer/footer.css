@@ -1,0 +1,33 @@
+/*footeer*/
+
+section.footer {
+    padding: 2% 0
+
+}
+
+.footer__rodapie{
+    text-align: center;
+}
+
+.logo__rodapie {
+    height: 80px;
+}
+
+.footer__rodapie {
+    font-weight: 700;
+}
+
+
+/*Desktop*/
+@media (max-width: 1440px) {
+	.logo__rodapie {
+        height: 60px;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .logo__rodapie {
+        height: 50px;
+    }
+}

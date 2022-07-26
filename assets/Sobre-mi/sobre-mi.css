@@ -1,0 +1,48 @@
+/*Sección About*/
+
+section.about {
+	background-color: var(--color-de-fondo-alt);
+	padding: 6% 25% 6% 6%;
+}
+
+.about__title {
+	font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.about__paragraph {
+	line-height: 1.6rem;
+    font-size: 1rem;
+}
+
+.about__signature {
+	height: 50px;
+	margin: 0.5rem 0 0 1rem;
+}
+
+
+/*Desktop*/
+@media (max-width: 1440px) {
+    .about__title{
+        font-size: 1.7rem;
+    }
+	.about__paragraph {
+        font-size: 0.75rem;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .about__title{
+        font-size: 1.4rem;
+    }
+    section.about {
+        background-color: var(--color-de-fondo-alt);
+        padding: 6%;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+}

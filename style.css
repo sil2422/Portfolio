@@ -1,0 +1,131 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root {
+	/* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+	/*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+	--color-de-fondo: #f5f5f5;
+	--color-de-link: #000;
+	--color-de-fuente: #464646;
+	--color-de-fondo-alt: #eaf2fd;
+	--color-blanco: #ffffff;
+	--color-azul: #2a7ae4;
+	--color-borde-input-inactivo: #c8c8c8;
+	--color-letra-label-inactivo: #a2a2a2;
+}
+
+body {
+	box-sizing: border-box;
+	background-color: var(--color-de-fondo);
+	font-family: "Raleway";
+	color: var(--color-de-fuente);
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+ol,
+ul,
+li,
+p {
+	list-style: none;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-inline-start: 0;
+}
+a {
+	text-decoration: none;
+	color: var(--color-de-fuente);
+}
+
+h4,
+h3,
+h2 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+button {
+	appearance: none;
+	box-sizing: none;
+	border-width: 0;
+	border-style: none;
+	border-color: transparent;
+	border-image: none;
+	font-family: "Raleway";
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+
+
+
+
+
+
+
+
+
+
+/*Small-Desktop*/
+@media (max-width: 1440px) {
+	/* Menú */
+
+	/*title*/
+
+	/*Skills*/
+
+	/*Hobbies*/
+
+	/*Formación Académica*/
+
+	/*Experiencia Profesional*/
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+	/* Menú */
+
+	/*title*/
+
+	/*Skills*/
+
+	/*Hobbies*/
+
+	/*Formación Académica*/
+
+	/*Experiencia Profesional*/
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+	/*Menu*/
+
+	/*Titulo*/
+
+	/*Sección sobre mi*/
+
+	/*Skills*/
+
+	/*Hobbies*/
+
+	/*Formación Académica*/
+
+	/*Experiencia Profesional*/
+
+	/*Contacto*/
+
+	/*Footer*/
+}

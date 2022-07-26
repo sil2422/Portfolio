@@ -1,0 +1,189 @@
+/*Contacto*/
+
+section.formcontacto {
+	padding: 3% 6% 5%;
+	background-color: var(--color-de-fondo-alt);
+}
+
+.formcontacto__contacto {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formcontacto--esquerda {
+	width: 40%;
+}
+
+.formcontacto__title {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.formcontacto__img {
+	width: 100%;
+}
+
+.formcontacto__text {
+	width: 58%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.formcontacto__subtext {
+	font-weight: 500;
+	line-height: 1.5rem;
+	margin-bottom: 2rem;
+	text-align: justify;
+}
+
+.formcontacto__form {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.formcontacto__input__doble {
+	height: 56px;
+	border-radius: 4px;
+	background-color: var(--color-blanco);
+	border: none;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+    border-bottom: 1px solid var(--color-borde-input-inactivo);
+
+}
+
+.formcontacto__form___label {
+	padding: 0.5rem 0.75rem 0;
+	border: none;
+}
+
+.formcontacto__input__nombre,
+.formcontacto__input__email {
+	padding: 0 0.75rem 0.5rem;
+	border: none;
+}
+
+.formcontacto__input {
+	height: 56px;
+	border-radius: 4px;
+	background-color: var(--color-blanco);
+	border: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 8px 12px;
+    border-bottom: 1px solid var(--color-borde-input-inactivo);
+
+}
+
+.formcontacto__form___label {
+	font-size: 0.75rem;
+	color: var(--color-letra-label-inactivo);
+}
+
+.formcontacto__input__nombre {
+	font-size: 1rem;
+	color: var(--color-de-fuente);
+}
+
+.formcontacto__textarea {
+	height: 133px;
+	border-radius: 4px;
+	background-color: var(--color-blanco);
+	border: none;
+	resize: none;
+	padding: 8px 12px;
+}
+
+.formcontacto__boton {
+	padding: 1rem;
+	font-size: 1rem;
+	background-color: var(--color-azul);
+	color: var(--color-blanco);
+	box-shadow: none;
+	width: 160px;
+	font-weight: 400;
+}
+
+.formcontacto__textarea:focus,
+.formcontacto__input:focus,
+.formcontacto__input__email:focus,
+.formcontacto__input__nombre:focus {
+	border-bottom: 2px solid var(--color-azul);
+	outline: none;
+}
+
+.formcontacto__textarea::placeholder,
+.formcontacto__input::placeholder,
+.formcontacto__input__email::placeholder,
+.formcontacto__input__nombre::placeholder {
+	font-family: Raleway;
+	font-size: 0.9rem;
+}
+
+.formcontacto__input__email:focus ~ .label__email {
+    color: var(--color-azul);
+}
+
+.formcontacto__input__nombre:focus ~ .label__nombre {
+    color: var(--color-azul);
+}
+
+
+/*Desktop*/
+@media (max-width: 1440px) {
+	.formcontacto__title {
+        font-size: 1.7rem;
+    }
+    .formcontacto--esquerda{
+        width: 48%;
+    }
+    .formcontacto__text {
+        width: 50%;
+    }
+    .formcontacto__subtext{
+        font-size: .95rem;
+        margin-bottom: 1rem;
+        line-height: 1rem;
+    }
+    .formcontacto__input__doble{
+        height: 40px;
+    }
+    .formcontacto__input {
+        height: 40px;
+    }
+    .formcontacto__form___label {
+        padding-top: .4rem;
+    }
+    .formcontacto__input__nombre , .formcontacto__input__mail {
+        padding-bottom: .4rem;
+    }
+    .formcontacto__textarea {
+        height: 80px;
+    }
+    .formcontacto__boton {
+        font-size: 0.75rem;
+        padding: 0.75rem;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .formcontacto--esquerda {
+        display: none;
+    }
+    .formcontacto__text {
+        width: 100%;
+        height: 400px;
+    }
+    .formcontacto__title {
+        font-size: 1.4rem;
+    }
+    .formcontacto__subtext {
+        font-size: 1rem;
+    }
+}
